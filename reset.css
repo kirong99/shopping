@@ -1,0 +1,45 @@
+*{
+    margin:0; /* 브라우저 기본 요소의 디자인을 없애자는 것 */
+    padding:0;
+    font:inherit; /* 초기화 */
+    color: inherit;
+}
+*, :after,:before{
+    box-sizing: border-box;
+    flex-shrink: 0; /* 원본의 콘텐츠가 잘리지 않고 크기대로 나와주기 위함 */
+}
+
+:root{
+    -webkit-tap-highlight-color: transparent; /* 모바일에서 클릭 시 검은색 영역이 사라짐 */
+    -webkit-text-size-adjust: 100%; /* 모바일에서도 원래의 폰트 크기대로 출력 */
+    text-size-adjust: 100%;
+    cursor: default;
+    line-height: 1.5;
+    overflow-wrap: break-word; /* 띄어쓰기가 없이 글자를 입력하면 wrap이 되지 않고 삐져나가는 일이 없음. */
+    word-break: break-word;
+    tab-size:4
+}
+
+html, body{
+    height: 100%;
+}
+
+img,picture,video,canvas,svg{ /* 본래 4px씩 여백이 생기는데, 미디어 컨텐츠는 block 취급을 받게 하여 생기지 않게 함 */
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
