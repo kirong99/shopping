@@ -46,7 +46,7 @@ table{
 
 /* kakao.com reset.css */
 
-/* blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, td, textarea, th, ul {margin:0;padding:0}
+ blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, td, textarea, th, ul {margin:0;padding:0}
 fieldset, img {border:0}
 dl, li, menu, ol, ul {list-style:none}
 blockquote, q {quotes:none}
@@ -62,4 +62,4 @@ body {background:var(--baseBackground)}
 body, button, input, select, td, textarea, th {font-size:14px;line-height:1.5;font-family:KakaoSmall, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕, sans-serif;font-weight:400;color:#333}
 a {color:#333}
 a, a:active, a:hover {text-decoration:none}
-address, caption, cite, code, dfn, em, var {font-style:normal;font-weight:400} */
+address, caption, cite, code, dfn, em, var {font-style:normal;font-weight:400}
