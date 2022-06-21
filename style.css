@@ -105,5 +105,34 @@ header nav .link li:nth-child(2){
     display: none;
 }
 
+.content{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.slide-banner{ /* 높이 200 */
+    width: 1920px;
+    height: 200px;
+    background-color: #999;
+}
+
+.best-product{ /* 높이 350 */
+    width: 1280px;
+    height: 300px;
+    position: relative;
+    background-color: #888;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.discount-product{
+    width: 1280px;
+    height: 200px;
+    position: relative;
+    margin-top: 50px;
+    background-color: #777;
+    margin: 0 auto;
+}
+
 
 
